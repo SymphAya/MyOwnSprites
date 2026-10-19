@@ -1,0 +1,19 @@
+@keyframes blink {
+    from {
+        transform:translateX(0%)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+.kitty {
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+}
+
+.kitty img {
+    animation: 0.8s steps(4) infinite blink;
+}
