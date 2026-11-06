@@ -12,8 +12,11 @@
     height: 320px;
     width: 320px;
     overflow: hidden;
+    background-color: brown;
+    border-radius: 10px;
 }
 
 .kitty img {
     animation: 0.8s steps(4) infinite blink;
 }
+
